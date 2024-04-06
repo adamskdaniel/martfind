@@ -7,7 +7,7 @@ import router from './routes/index.js';
 dotenv.config();
 
 const app = express();
-const port = process.env.PORT || 1080;
+const port = process.env.PORT || 2000;
 const db = process.env.MONGODB_URI || 'mongodb://localhost/martfind';
 
 app.use(bodyParser.urlencoded({ extended: true }));
